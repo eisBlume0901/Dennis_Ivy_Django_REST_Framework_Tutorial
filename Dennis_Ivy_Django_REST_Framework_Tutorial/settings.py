@@ -31,6 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+
+    'rest_framework', # This is for the REST framework which is the api app
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
